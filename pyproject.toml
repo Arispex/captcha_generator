@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "captcha-generator"
+version = "0.1.0"
+description = ""
+authors = ["Qianyiovo <1291525582@qq.com>"]
+readme = "README.md"
+packages = [{include = "captcha_generator"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Pillow = "^9.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
